@@ -6,8 +6,10 @@ public class Calculator {
 
 		Scanner scan = new Scanner(System.in);
 		
-		int a=scan.nextInt();
-		int b=scan.nextInt();
+		System.out.println("enter first no");
+		float a=scan.nextFloat();
+		System.out.println("enter second no");
+		float b=scan.nextFloat();
 		
 		int choice;
 		
@@ -61,24 +63,25 @@ public class Calculator {
 		
 	}
 	
-	public static int addition(int a,int b)
+	public static float addition(float a,float b)
 	{
 		return a+b;
 	}
 	
-	public static int subtraction(int a,int b)
+	public static float subtraction(float a,float b)
 	{
 		return a-b;
 	}
 	
-	public static int multiplication(int a,int b)
+	public static float multiplication(float a,float b)
 	{
 		return a*b;
 	}
 	
-	public static int division(int a,int b)
+	public static float division(float a,float b)
 	{
 		return a/b;
 	}	
 
 }
+
